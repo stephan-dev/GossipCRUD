@@ -1,24 +1,7 @@
-# README
+# The gossip project
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+CRUD en Rails : afficher des ragots, page dynamique par ragot, ajouter un ragot.
 
-Things you may want to cover:
-
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+* Ruby 2.5.1
+* Rails 5.2.1
+* peer-programming
