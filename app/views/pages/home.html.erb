@@ -1,0 +1,17 @@
+<h1>rumeurs</h1>
+<p>Bienvenue, voici tous les potins :</p>
+
+
+<% @gossips.each do |gossip| %>
+
+	<div class="card" style="width: 20rem;">
+  		<img class="card-img-top" src="https://assets.tmz.com/www.tmz.com/main/default/cache/img/widgets/masthead/logo-tmz-main.v2016_11_09_120223.svg" alt="Tmz">
+  			<div class="card-body">
+    			<h5 class="card-title"><%= gossip['author'] %></h5>
+    			<p class="card-text"><%= "a écrit : \"#{gossip['content']}\"" %></p>
+    			<a href="/potin/<%=gossip[:id]%>">page de ce potin</a>
+  		</div>
+	</div>
+	<br>
+
+<% end %>
